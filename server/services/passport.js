@@ -11,10 +11,10 @@ passport.serializeUser((user, done) => {
 
 passport.deserializeUser((id, done) => {
   User.findById(id)
-    .then(user => {
+    .then((user) => {
       done(null, user);
     })
-    .catch(err => console.log(err));
+    .catch((err) => console.log(err));
 });
 
 passport.use(
@@ -23,7 +23,7 @@ passport.use(
       clientID: keys.googleClientID,
       clientSecret: keys.googleClientSecret,
       callbackURL: "/auth/google/callback",
-      proxy: true
+      proxy: true,
     },
     async (acessToken, refreshToken, profile, done) => {
       const existingUser = await User.findOne({ googleId: profile.id });
