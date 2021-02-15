@@ -1,4 +1,4 @@
-# treino 1
+# Cruso: "Node with React: Fullstack Web Development"
 
 Repositório usado para o curos "Node with React: Fullstack Web Development", feito por Stephen Grider.
 
