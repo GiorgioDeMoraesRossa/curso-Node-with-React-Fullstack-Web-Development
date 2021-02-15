@@ -7,10 +7,16 @@ sozinho (ou ao menos entender como as duas partes funcionam).
 
 Conteúdos: React, Redux, Express, Mongo, Google OAuth e como aceitar pagamento de usuários (cartão de crédito).
 
-todo:
+to do:
+
 Improve design of cards
+
 Allow users to delete surveys
+
 Allow "from" field on emails
+
 Allow client side sorting
+
 Allow draft mode
+
 ~~Change name and icon~~
